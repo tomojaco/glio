@@ -87,6 +87,11 @@ a:hover {
 	float: left;
 }
 
+.item-box:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
  .tumb {
 	width: 250px;
     height: 250px;
